@@ -1,0 +1,34 @@
+package com.akash;
+
+import java.io.File;
+import java.io.FileReader;
+import java.util.Properties;
+
+public class ReadPropertyFile {
+
+	
+	Properties properties = new Properties();
+	
+	ReadPropertyFile(){
+		try {
+			File file = new File("config.properties");
+			FileReader reader = new FileReader(file);
+			properties.load(reader);
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	String getName(){
+			return properties.getProperty("name");	
+	}
+	
+	String getAge(){
+		return properties.getProperty("age");
+	}
+	
+	public static void maine(String[] args){
+		ReadPropertyFile rp = new 
+	}
+}

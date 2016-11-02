@@ -1,0 +1,13 @@
+package com.akash;
+
+public class Pallindrom {
+	public static boolean PallindromTest(String inputString){
+		
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

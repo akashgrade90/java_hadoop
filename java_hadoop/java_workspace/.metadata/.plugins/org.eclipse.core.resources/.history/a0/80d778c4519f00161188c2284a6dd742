@@ -1,0 +1,17 @@
+package com.akash;
+
+public class Pallindrom {
+	public static boolean PallindromTest(String inputString){
+		if(inputString.length()==1 || (inputString.length()==2 && inputString.charAt(0)==inputString.charAt(1)))
+			return true;
+		
+		return false;		
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		if(PallindromTest("AA"))
+			System.out.println("Yes");
+	}
+
+}

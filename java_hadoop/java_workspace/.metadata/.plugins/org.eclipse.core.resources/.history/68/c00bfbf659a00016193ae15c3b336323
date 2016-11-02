@@ -1,0 +1,17 @@
+package com.akash;
+
+import java.io.FileReader;
+
+public class ShowFile2 {
+
+	public static void main(String[] args) {
+		String filePath = "C:\\Users\\gradea\\Documents\\showFile.txt";
+		try {
+			FileReader reader = new FileReader(filePath);
+		} catch (Exception e) {
+			
+		}
+
+	}
+
+}

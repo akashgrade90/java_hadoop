@@ -1,0 +1,17 @@
+package com.akash;
+
+public class LinkedList {
+	Node head;
+	Node tail;
+	int size;
+	
+	LinkedList(){
+		size=1;
+		Node n1 = new Node();
+	}
+	
+	LinkedList(int pValue){
+		size=1;
+		Node n1 = new Node(pValue);
+	}
+}

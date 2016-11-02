@@ -1,0 +1,13 @@
+package com.akash.mapreduce;
+
+import org.apache.hadoop.conf.Configuration;
+
+public class FileSystemCat {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String uri = args[0];
+		Configuration conf = new Configuration();
+	}
+
+}

@@ -1,0 +1,26 @@
+package com.akash;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+
+public class EmailValidation {
+	public static void main(String args[]){
+		
+		/*
+		 ^[_A-Za-z0-9-\\+]+    : Must start with any of the character and have atleast on occurance 
+		 */
+		
+		//String emailPattern = "^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)*@"	+ "[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$";
+		String emailPattern = "^a+";
+		String inputString="akash@vodafone.com";
+		Pattern p = Pattern.compile(emailPattern);
+		Matcher m = p.matcher(inputString);
+		
+		if (m.matches())
+			System.out.println("Yes");
+		else
+			System.out.println("No");
+	
+	}
+}

@@ -1,0 +1,28 @@
+package com.akash;
+
+public class Stack {
+	int stackArray[] = new int[10];
+	int pos;
+	int noOfElements;
+	
+	Stack(){
+		pos = -1;
+		noOfElements=0;
+	}
+	
+	public void push(int element){
+		this.stackArray[++pos]=element;
+		noOfElements++;
+	}
+	
+	public int pull(){
+		int element=this.stackArray[pos--];
+		noOfElements--;
+		return element;
+	}
+	
+	public void printStack(){
+		for(int i=this.pos; i>-1;i--)
+			System.out.println(this.stackArray[i]);
+	}
+}

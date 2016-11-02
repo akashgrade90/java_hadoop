@@ -1,0 +1,18 @@
+package com.akash;
+
+public class Factorial {
+	private static int ComputeFactorial(int inputNumber){
+		if(inputNumber==0 || inputNumber==1)
+			return inputNumber;
+		else{
+			return ComputeFactorial(inputNumber--);
+		}
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int element=2;
+		System.out.println(ComputeFactorial(element));
+	}
+	
+}

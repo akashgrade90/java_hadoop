@@ -1,0 +1,20 @@
+package com.akash;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+
+public class EmailValidation {
+	public static void main(String args[]){
+		
+		String emailPattern = "^a";
+		String inputString="akash";
+		Pattern p = Pattern.compile(emailPattern);
+		Matcher m = p.matcher(inputString);
+		
+		if 
+				
+				
+		
+	}
+}

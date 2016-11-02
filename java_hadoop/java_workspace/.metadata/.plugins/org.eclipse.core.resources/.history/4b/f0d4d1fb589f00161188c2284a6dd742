@@ -1,0 +1,34 @@
+package com.akash;
+
+public class LinkedList {
+	Node head;
+	Node tail;
+	int size=0;
+	
+	
+	public void add(int pValue){
+		Node newNode = new Node(pValue);
+		
+		if(this.size==0) {
+			System.out.println("This list is empty, creating first node");
+			this.head=newNode;
+			this.tail=newNode;
+		}
+		else{
+			System.out.println("Adding new element in the list");
+			newNode.previous=this.tail;
+			this.tail.next=newNode;
+			this.tail=newNode;
+			
+			this.tail.index=this.tail.getPrevNodeIndex()+1;
+			
+		}	
+		
+		this.size++;
+		System.out.println("Now total no of elements are:"+this.size);
+	}
+	
+	public void printList(){
+		
+	}
+}

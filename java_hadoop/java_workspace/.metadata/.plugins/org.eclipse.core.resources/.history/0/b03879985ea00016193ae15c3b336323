@@ -1,0 +1,22 @@
+package com.akash;
+
+import java.io.File;
+
+import org.apache.hadoop.conf.Configuration;
+
+public class ReadConfigXML {
+
+	
+	public ReadConfigXML(String path) {
+		File file = new File(path);
+		Configuration conf = new Configuration();
+		conf.addResource(file.getPath());
+	}
+	
+	
+	public static void main(String[] args) {
+
+
+	}
+
+}

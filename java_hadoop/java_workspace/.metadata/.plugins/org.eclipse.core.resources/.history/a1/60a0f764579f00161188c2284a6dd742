@@ -1,0 +1,25 @@
+package com.akash;
+
+public class LinkedList {
+	Node head;
+	Node tail;
+	int size;
+	
+	LinkedList(){
+		size=1;
+		Node n1 = new Node();
+		head=n1;
+		tail=n1;
+	}
+	
+	LinkedList(int pValue){
+		size=1;
+		Node n1 = new Node(pValue);
+		head=n1;
+		tail=n1;
+	}
+	
+	public void add(){
+		
+	}
+}

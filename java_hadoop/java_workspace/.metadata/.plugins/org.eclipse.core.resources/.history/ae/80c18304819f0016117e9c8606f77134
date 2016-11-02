@@ -1,0 +1,9 @@
+package com.akash;
+
+import java.util.regex.*;
+
+public class EmailValidation {
+	public static void main(){
+		
+	}
+}

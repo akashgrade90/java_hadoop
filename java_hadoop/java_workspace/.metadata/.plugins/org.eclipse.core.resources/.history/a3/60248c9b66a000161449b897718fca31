@@ -1,0 +1,21 @@
+package com.akash;
+
+import java.io.File;
+
+public class RenameFile {
+
+	public static void main(String[] args) {
+		File file = new File("C:\\Users\\gradea\\Documents\\test.txt");
+		System.out.println("Current File name : "+file.getName());
+		
+		String NewFileName = file.getName().split("\\.")[0].toUpperCase().concat("."+file.getName().split("\\.")[1]);
+		
+		
+		System.out.println("New FileName is "+NewFileName+"\n\nNow changing the file name in the dir");
+		
+		File file2 = new File(NewFileName);
+		//file.renameTo(file2);
+
+	}
+
+}

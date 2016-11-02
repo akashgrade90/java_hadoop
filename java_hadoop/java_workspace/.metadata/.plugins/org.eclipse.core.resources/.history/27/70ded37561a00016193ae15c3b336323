@@ -1,0 +1,20 @@
+package com.akash;
+
+import org.apache.hadoop.conf.Configuration;
+import java.lang.Object;
+
+public class ReadConfigXML {
+
+
+	public static void main(String[] args) {
+		
+		String path = "C:\\Users\\gradea\\.babun\\cygwin\\home\\gradea\\personal\\java_workspace\\CoreJava\\src\\com\\akash\\config.xml";
+		
+		Configuration conf  = new Configuration();
+		conf.addResource(path);
+		
+		assertThat(conf.get("color"), is("yellow"));
+		
+	}
+
+}

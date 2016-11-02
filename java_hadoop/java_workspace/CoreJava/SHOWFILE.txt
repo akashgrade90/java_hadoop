@@ -1,0 +1,3 @@
+A computer file is a resource for storing information, which is available to a computer program and is usually based on some kind of durable storage. 
+A file is "durable" in the sense that it remains available for other programs to use after the program that created it has finished executing. 
+Computer files can be considered as the information technology counterpart of paper documents which traditionally are kept in office and library files, and this is the source of the term.

@@ -1,0 +1,23 @@
+package com.akash;
+
+public class Pallindrom {
+	public static void PallindromTest(String inputString){
+		int StringLen = inputString.length();
+		
+		//if(inputString.toUpperCase().charAt(0)==inputString.toUpperCase().charAt(StringLen-1))
+			//return true;
+
+		System.out.println(inputString.substring(1,StringLen-1));
+		//return PallindromTest(inputString.substring(1,StringLen-1));
+		
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		PallindromTest("AB");
+		//if(PallindromTest("AAB"))
+			//System.out.println("Yes");
+	}
+
+}

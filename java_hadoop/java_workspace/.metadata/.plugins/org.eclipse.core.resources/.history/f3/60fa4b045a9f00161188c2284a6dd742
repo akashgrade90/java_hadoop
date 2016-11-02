@@ -1,0 +1,17 @@
+package com.akash;
+
+public class LinkedListTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		LinkedList myList = new LinkedList();
+		myList.printList();
+		
+		//Adding a  new element in list
+		myList.add(10);
+		myList.printListInfo();
+		
+	
+	}
+
+}

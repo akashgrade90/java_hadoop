@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<confiuration>
+	<property>
+		<name>color</name>
+		<value>yellow</value>
+		<description>Color</description>
+	</property>
+	<property>
+		<name>size</name>
+		<value>10</value>
+		<final>true</final>
+		<description>Size</description>
+	</property>
+	<property>
+		<name>color-size</name>
+		<value>${size},${weight}</value>
+		<description>Color and Size</description>
+	</property>
+</confiuration>

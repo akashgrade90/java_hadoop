@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<confiuration>
+	<property>
+		<name></name>
+		<value></value>
+		<description></description>
+	</property>
+	<property>
+		<name></name>
+		<value></value>
+		<final></final>
+		<description></description>
+	</property>
+	<property>
+		<name></name>
+		<value></value>
+		<description></description>
+	</property>
+	
+</confiuration>

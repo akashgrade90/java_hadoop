@@ -1,0 +1,17 @@
+package com.akash;
+
+public class Box {
+	double width;
+	double height;
+	double depth;
+	
+	Box(){
+		width=height=depth=0.0;
+	}
+	
+	Box(double pWidth, double pHeight, double pDepth){
+		width=pWidth;
+		height=pHeight;
+		depth=pDepth;
+	}
+}

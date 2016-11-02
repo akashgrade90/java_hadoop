@@ -1,0 +1,28 @@
+package com.akash;
+
+import java.io.File;
+
+import org.apache.hadoop.conf.Configuration;
+
+public class ReadConfigXML {
+
+	Configuration conf = null;
+	
+	public ReadConfigXML(String path) {
+		File file = new File(path);
+		conf = new Configuration();
+		conf.addResource(file.getPath());
+	}
+	
+	String getColor(){
+		return conf.get("color");
+	}
+	
+	
+	public static void main(String[] args) {
+		ReadConfigXML rf = new ReadConfigXML("C:\\Users\\gradea\\.babun\\cygwin\\home\\gradea\\personal\\java_workspace\\CoreJava\\src\\com\\akash\\config.xml");
+		rf.getColor();
+
+	}
+
+}

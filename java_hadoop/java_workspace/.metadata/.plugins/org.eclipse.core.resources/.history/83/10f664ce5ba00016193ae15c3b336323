@@ -1,0 +1,18 @@
+package com.akash;
+
+import java.io.File;
+
+public class ReadPropertyFile {
+
+	File file = new File("config.properties");
+	
+	ReadPropertyFile(){
+		try {
+			
+			
+			
+		} catch (Exception e) {
+			
+		}
+	}
+}

@@ -1,0 +1,21 @@
+package com.akash;
+
+import java.io.*;
+
+public class ShowFile {
+
+	public static void main(String[] args) throws IOException{
+		// TODO Auto-generated method stub
+		String filePath = "C:\\Users\\gradea\\Documents\\showFile.txt";
+		
+		try{
+			FileInputStream f = new FileInputStream(filePath);
+		} catch(){
+			
+		}
+		finally {
+			
+		}
+	}
+
+}

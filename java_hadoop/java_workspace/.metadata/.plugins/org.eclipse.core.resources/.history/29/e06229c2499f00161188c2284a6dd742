@@ -1,0 +1,12 @@
+package com.akash;
+
+public class Stack {
+	int stackhArray[] = new int[10];
+	int pos;
+	int noOfElements;
+	
+	Stack(){
+		
+	}
+	
+}

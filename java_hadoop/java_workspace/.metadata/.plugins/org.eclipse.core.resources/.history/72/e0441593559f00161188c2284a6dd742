@@ -1,0 +1,17 @@
+package com.akash;
+
+public class Node {
+	Node previous;
+	Node next;
+	int value;
+	
+	Node(){
+		value=0;
+	}
+	
+	Node(int pValue){
+		value=pValue;
+		
+	}
+
+}

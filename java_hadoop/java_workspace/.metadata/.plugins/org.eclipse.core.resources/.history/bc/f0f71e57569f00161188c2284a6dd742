@@ -1,0 +1,28 @@
+package com.akash;
+
+public class Node {
+	Node previous;
+	Node next;
+	int index;
+	int value;
+	
+	Node(){
+		value=0;
+		index=0;
+		previous=null;
+		next=null;
+	}
+	
+	Node(int pValue){
+		value=pValue;
+		index=0;
+		previous=null;
+		next=null;
+	}
+	
+	public int getPrevNodeIndex(){
+		if(this.previous == null)
+		 return -1;
+		return this.previous.index;
+	}
+}

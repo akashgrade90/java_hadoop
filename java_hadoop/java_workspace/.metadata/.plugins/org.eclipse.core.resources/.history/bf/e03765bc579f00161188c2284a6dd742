@@ -1,0 +1,23 @@
+package com.akash;
+
+public class LinkedList {
+	Node head;
+	Node tail;
+	int size=0;
+	
+	
+	public void add(int pValue){
+		Node newNode = new Node(pValue);
+		
+		if(this.size==0) {
+			System.out.println("This list is empty, creating first node");
+			this.head=newNode;
+			this.tail=newNode;
+			this.size++;
+		}
+			
+		
+		
+		
+	}
+}
